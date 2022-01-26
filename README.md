@@ -7,18 +7,18 @@ GUI for various YGO MD Python translating tools
 3.运行gui.py
 
 # GUI设置方法
-修改 config.py
+修改 config.py  
 字号和字体
 ```
 FRONT_SIZE = 15
 FRONT = '微软雅黑'
 ```
-无翻译结果时默认卡图，你也可以改为"卡背"，然后另外加入你想要的卡背.jpg.
+无翻译结果时默认卡图，你也可以改为"卡背"，然后另外加入你想要的卡背.jpg（建议做成与其他卡图大小一致）.
 ```
 DEFAULT_PIC = "10000"
 ```
 
-窗口宽度，可以根据你所用卡图文件宽度来修改，一般高清卡图是400像素
+窗口宽度，可以根据你所用卡图文件宽度来修改，一般高清卡图是400x580
 ```
 WINDOW_WIDTH = 400
 ```
@@ -27,7 +27,6 @@ WINDOW_WIDTH = 400
 UPDATE_INTERVAL = 100
 ```
 
-
 # 载入翻译工具
-编辑search_engine.py, 在其中载入你需要的python翻译工具及功能就行了
+编辑search_engine.py, 在其中接入你需要的python翻译工具及功能就行了
 
