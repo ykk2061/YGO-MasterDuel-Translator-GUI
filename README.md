@@ -3,7 +3,7 @@ GUI for various YGO MD Python translating tools
 
 # 使用方法
 1.编辑search_engine.py, 在其中载入你需要的python翻译工具及功能  
-2.建立pics文件夹，在其中放入你想要的卡图。卡图请自己找，我是直接从ygopro里拷过来。无卡图也可以用，会只显示卡名。    
+2.在pics文件夹中放入你想要的卡图。卡图请自己找，我是直接从ygopro里拷过来，现有的0.jpg只是占位，建议删掉。无卡图也可以用，会只显示卡名。    
 3.运行gui.py  
 
 # GUI设置方法
